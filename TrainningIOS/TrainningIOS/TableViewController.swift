@@ -31,8 +31,10 @@ class TableViewController: UITableViewController {
     @objc private func obserKeyboard(_ notification : Notification){
         if notification.name == .UIKeyboardWillShow {
             checkReload = false
+            self.tableView.contentOffset = CGPoint(x: 0, y: 200)
         }else {
             checkReload = true
+            self.tableView.contentOffset = CGPoint(x: 0, y: 0)
         }
     }
     @objc private func refreshData(_ refresh : UIRefreshControl){
