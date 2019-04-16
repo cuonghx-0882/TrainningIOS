@@ -14,6 +14,9 @@
 		95037FEC22606DAE00291810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95037FEB22606DAE00291810 /* ViewController.swift */; };
 		95037FEE22606EF000291810 /* MyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95037FED22606EF000291810 /* MyTableCell.xib */; };
 		95037FF0226070AA00291810 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95037FEF226070AA00291810 /* MyTableViewCell.swift */; };
+		95037FF2226085D800291810 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95037FF1226085D800291810 /* TableViewController.swift */; };
+		95037FF422608A0F00291810 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95037FF322608A0F00291810 /* Province.swift */; };
+		95FC7161226197DD00BDE1E2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7160226197DD00BDE1E2 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		95037FEB22606DAE00291810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95037FED22606EF000291810 /* MyTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableCell.xib; sourceTree = "<group>"; };
 		95037FEF226070AA00291810 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		95037FF1226085D800291810 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		95037FF322608A0F00291810 /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		95FC7160226197DD00BDE1E2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,13 @@
 				95037FDD22606C4900291810 /* Main.storyboard */,
 				95037FEB22606DAE00291810 /* ViewController.swift */,
 				95037FEF226070AA00291810 /* MyTableViewCell.swift */,
+				95FC7160226197DD00BDE1E2 /* TestViewController.swift */,
+				95037FF1226085D800291810 /* TableViewController.swift */,
 				95037FED22606EF000291810 /* MyTableCell.xib */,
 				95037FE022606C4B00291810 /* Assets.xcassets */,
 				95037FE222606C4B00291810 /* LaunchScreen.storyboard */,
 				95037FE522606C4B00291810 /* Info.plist */,
+				95037FF322608A0F00291810 /* Province.swift */,
 			);
 			path = TrainningIOS;
 			sourceTree = "<group>";
@@ -145,6 +154,9 @@
 				95037FEC22606DAE00291810 /* ViewController.swift in Sources */,
 				95037FDA22606C4900291810 /* AppDelegate.swift in Sources */,
 				95037FF0226070AA00291810 /* MyTableViewCell.swift in Sources */,
+				95037FF2226085D800291810 /* TableViewController.swift in Sources */,
+				95FC7161226197DD00BDE1E2 /* TestViewController.swift in Sources */,
+				95037FF422608A0F00291810 /* Province.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

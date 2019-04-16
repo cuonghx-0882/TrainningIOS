@@ -21,7 +21,9 @@ class ViewController: UIViewController {
         self.tableView.register(UINib(nibName: "MyTableCell", bundle: nil), forCellReuseIdentifier: idCell)
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
+        
     }
+
 }
 extension ViewController : UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
